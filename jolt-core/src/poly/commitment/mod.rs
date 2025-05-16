@@ -6,5 +6,6 @@ pub mod pedersen;
 pub mod zeromorph;
 
 pub mod bmmtv;
+pub mod mercury;
 #[cfg(test)]
 pub mod mock;

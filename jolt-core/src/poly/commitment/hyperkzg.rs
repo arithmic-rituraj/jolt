@@ -43,7 +43,7 @@ where
     where
         P::ScalarField: JoltField,
     {
-        Self(Arc::new(SRS::setup(rng, max_degree, 2)))
+        Self(Arc::new(SRS::setup(rng, max_degree, 3)))
     }
 
     pub fn trim(self, max_degree: usize) -> (HyperKZGProverKey<P>, HyperKZGVerifierKey<P>) {
